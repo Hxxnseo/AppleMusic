@@ -31,4 +31,15 @@
   border: 0px;
   border-radius: 5px;
   cursor: pointer;
+  margin-bottom: 30px;
+}
+
+.description learn {
+  display: flex;
+  align-items: center;
+  color: white;
+}
+
+.description .learn a {
+  color: white;
 }
