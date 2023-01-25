@@ -1,4 +1,6 @@
+/*eslint-disable */
 import "./App.css";
+import Browse from "./components/Browse";
 import Header from "./components/Header";
 import Main from "./components/Main";
 
@@ -7,7 +9,8 @@ function App() {
     <div className="App">
       <wrapper className="wrapper">
         <Header />
-        <Main />
+        {/* <Main /> */}
+        <Browse />
       </wrapper>
     </div>
   );
