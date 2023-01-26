@@ -1,0 +1,39 @@
+.magazineWrapper {
+  display: flex;
+  margin-left: 40px;
+  padding-bottom: 32px;
+}
+
+.mag {
+  width: 508px;
+  margin-top: 15px;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.mag:hover {
+  filter: brightness(0.8);
+}
+
+.sub,
+.category {
+  color: #a7a7a7;
+}
+
+.sub {
+  font-size: 12px;
+}
+
+.category {
+  margin-bottom: 5px;
+  font-size: 16px;
+}
+
+.title {
+  margin: 3px 0;
+  color: #ededed;
+}
+
+img {
+  width: 100%;
+}

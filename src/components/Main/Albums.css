@@ -1,0 +1,21 @@
+.albumWrapper {
+  margin-left: 40px;
+  padding-top: 12px;
+}
+
+.albums {
+  display: flex;
+}
+
+.album {
+  width: 244px;
+  margin-top: 15px;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.album:hover {
+  filter: brightness(0.8);
+  text-decoration: underline;
+  font-weight: 600;
+}
