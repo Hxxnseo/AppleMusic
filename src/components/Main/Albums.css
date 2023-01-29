@@ -1,6 +1,7 @@
 .albumWrapper {
   margin-left: 40px;
   padding-top: 12px;
+  margin-bottom: 20px;
 }
 
 .albums {
@@ -18,4 +19,8 @@
   filter: brightness(0.8);
   text-decoration: underline;
   font-weight: 600;
+}
+
+.album .category {
+  font-size: 14px;
 }

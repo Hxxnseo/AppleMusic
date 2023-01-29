@@ -2,6 +2,8 @@ import MusicBar from "./Main/MusicBar";
 import "./Browse.css";
 import Magazine from "./Main/Magazine";
 import Albums from "./Main/Albums";
+import Albums2 from "./Main/Albums2";
+import Albums3 from "./Main/Albums3";
 
 function Browse() {
   return (
@@ -13,6 +15,8 @@ function Browse() {
         </div>
         <Magazine />
         <Albums />
+        <Albums2 />
+        <Albums3 />
       </div>
     </div>
   );

@@ -5,6 +5,7 @@ import { HiOutlineSquares2X2 } from "react-icons/hi2";
 import { FiRadio } from "react-icons/fi";
 import { ImArrowUpRight2 } from "react-icons/im";
 import Logo from "./Header/Logo";
+import { Link } from "react-router-dom";
 
 function Header() {
   return (
@@ -22,24 +23,22 @@ function Header() {
         <div className="nav__container">
           <div className="nav">
             <ul className="nav--gnb">
-              <li>
-                <a href="/">
-                  <AiOutlinePlayCircle className="icon" />
-                  <span>Listen Now</span>
-                </a>
-              </li>
-              <li>
-                <a href="/">
-                  <HiOutlineSquares2X2 className="icon" />
-                  <span>Browse</span>
-                </a>
-              </li>
-              <li>
-                <a href="/">
-                  <FiRadio className="icon" />
-                  <span>Radio</span>
-                </a>
-              </li>
+              <Link to="/">
+                <li>
+                  <a href="/">
+                    <AiOutlinePlayCircle className="icon" />
+                    <span>Listen Now</span>
+                  </a>
+                </li>
+              </Link>
+              <Link to="/Browse">
+                <li>
+                  <a href="/">
+                    <HiOutlineSquares2X2 className="icon" />
+                    <span>Browse</span>
+                  </a>
+                </li>
+              </Link>
             </ul>
           </div>
         </div>
