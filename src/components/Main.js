@@ -4,6 +4,7 @@ import MusicBar from "./Main/MusicBar";
 // import { FaGreaterThan } from "react-icons/fa";
 
 function Main() {
+  const path = process.env.PUBLIC_URL;
   return (
     <div className="main">
       <MusicBar />
@@ -16,7 +17,7 @@ function Main() {
           <a href="https://www.apple.com/apple-music/">Learn More &gt;</a>
         </div>
       </div>
-      <img src="./images/main/applemusiic-macbook.webp" alt="applemusiic-macbook" />
+      <img src={`${path}/images/main/applemusiic-macbook.webp`} alt="applemusiic-macbook" />
     </div>
   );
 }

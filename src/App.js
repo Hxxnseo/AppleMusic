@@ -10,7 +10,7 @@ function App() {
   return (
     <div className="App">
       <wrapper className="wrapper">
-        <BrowserRouter>
+        <BrowserRouter basename={process.env.PUBLIC_URL}>
           <Header />
           <Routes>
             <Route path="/" element={<Main />} />

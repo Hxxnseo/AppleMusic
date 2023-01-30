@@ -2,7 +2,6 @@ import "./Header.css";
 import { BsSearch, BsMusicNoteBeamed } from "react-icons/bs";
 import { AiOutlinePlayCircle } from "react-icons/ai";
 import { HiOutlineSquares2X2 } from "react-icons/hi2";
-import { FiRadio } from "react-icons/fi";
 import { ImArrowUpRight2 } from "react-icons/im";
 import Logo from "./Header/Logo";
 import { Link } from "react-router-dom";
